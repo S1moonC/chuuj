@@ -1,3 +1,5 @@
+
+![Snímek obrazovky 2024-03-13 121135](https://github.com/S1moonC/chuuj/assets/150243820/a8bc7d72-147c-4413-9076-5a81f3248c5d)
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
