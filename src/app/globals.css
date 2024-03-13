@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+
+@layer utilities {
+  .text-balance {
+  }
+}
+.todo-container {
+  width: 300px;
+  margin: 20px auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  background: linear-gradient(to right, yellow, greenyellow);
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-list li {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  display: none;
+}
+
+.todo-list li:nth-child(1) {
+  display: block;
+}
+
+.todo-list li:nth-child(2) {
+  display: block;
+}
+
+.todo-list li:nth-child(3) {
+  display: block;
+}
+
+.todo-list li:nth-child(4) {
+  display: block;
+}
+
+.todo-list li:nth-child(n + 69) {
+  display: none;
+}
